@@ -1,0 +1,136 @@
+/* PC */
+@media (min-width: 1024px) {
+  .pc {
+    display: block;
+  }
+}
+
+/* máy tính bảng và điện thoại */
+@media (max-width: 1023px){
+
+  .places-buy-btn {
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 16px;
+    background-color: #001838;
+    display: inline-block;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .section-content-more {
+    width: 85px;
+    height: 36px;
+    background-color: #98c5e9;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25px;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+    /* transition: all 0.3s ease; */
+}
+.padding-bottom-input{
+padding :5px;
+}
+
+.contact-fan .form-control {
+  padding: 16px;
+  border: 1px solid #ccc !important;
+  width: 100%;
+}
+
+
+}
+
+/* máy tính bảng */
+@media (min-width: 740px) and(max-width: 1023px) {
+  .tablet {
+    display: block;
+  }
+}
+ 
+/* điện thoại */
+@media (max-width: 740px) {
+  /* menu */
+  #header {
+    overflow: hidden;
+  }
+  #header .menu-icon-header {
+    display: block;
+  }
+  #header .search-header {
+    display: none;
+  }
+  #nav > li {
+    display: block;
+  }
+  #nav li a {
+    display: block;
+  }
+  #nav>li:first-child{
+    display: inline-block;
+  }
+
+
+
+  #nav .subnav{
+    position: initial;
+    background-color: #333;
+    /* display: inline-block; */
+    width: 100%;
+    
+
+
+  }
+  #nav .subnav a{
+    color: #fff;
+    /* width: 100%; */
+    padding: 5px 41px;
+  }
+  /* menu end */
+
+  .places-items {
+    width: 100%;
+    padding: 7%;
+    /* border-radius: 30px; */
+  }
+
+
+  .section-content-people .people {
+    width: 80%;
+    margin: auto;
+    float: none;
+  }
+
+
+  .video{
+    width: 130%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* chỉnh cho thằng contact */
+  .col {
+    width: 100% !important;
+  }
+  .connect{
+    margin-bottom: 16px;
+  }
+  .contact-fan {
+    padding-top: 48px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+  .modal-container{
+  max-width: calc(95%);
+  }
+}

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manchester City</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/fonts/mancity-icon.ico" />
+    <!-- kết nối css vào đây -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/themify-icons/themify-icons.css"
+    />
+  </head>
+
+  <body>
+    <!-- tạo các thẻ bao bọc từng nội dung, đầu tiên là thẻ bao trọn tất cả(main) -->
+    <div id="main">
+      <!-- thẻ header -->
+      <div id="header">
+        <ul id="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#About">Band</a></li>
+          <li><a href="#Tour">Tour</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li id="more">
+            <a href="#">
+              More
+              <i class="nav-arrow-down ti-arrow-circle-down"></i>
+            </a>
+            <ul class="subnav">
+              <li><a href="#">Merchandise</a></li>
+              <li><a href="#">Extras</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="search-header search-js">
+          <i class="icon-search ti-search"></i>
+        </div>
+
+        <div id="mobile-menu" class="menu-icon-header">
+          <i class="icon-menu ti-menu"></i>
+        </div>
+      </div>
+      <div class="modal-search js-search">
+        <div class="search-border">
+          <input type="text" placeholder="Search..." class="text-search" />
+        </div>
+      </div>
+
+      <!-- thẻ slider -->
+      <div id="slider">
+        <div class="content-text">
+          <h2 class="heading-slider">Manchester City</h2>
+          <p class="content-slider">
+            Chúng ta là áng mây bên trời vội vàng ngang qua
+          </p>
+        </div>
+      </div>
+
+      <!-- thẻ content -->
+      <div id="content">
+        <div id="About" class="section-content">
+          <h2 class="heading-section">MANCHESTER CITY</h2>
+          <p class="section-sub-heading">Trying to better</p>
+          <p class="text-about">
+            Manchester City Football Club is an English football club based in
+            Manchester that competes in the Premier League, the top flight of
+            English football. Founded in 1880 as St. Mark's, it became Ardwick
+            Association Football Club in 1887 and Manchester City in 1894.
+            Manchester City joined the Football League in 1892, and won their
+            first major honour, the FA Cup, in 1904. The club had success in the
+            late 1960s and early 1970s, winning the League, European Cup Winners
+            Cup, FA Cup and League Cup under the management of Joe Mercer and
+            Malcolm Allison. After losing the 1981 FA Cup Final, the club went
+            through a period of decline, culminating in relegation to the third
+            tier of English football for the only time in its history in 1998.
+            They won promotion back to the top tier in 2001–02 and have remained
+            in the Premier League since.
+          </p>
+
+          <div class="section-content-people row .content-padding-down-64">
+            <div class="col-third people play-video">
+              <p class="people-name">Jack-Grealish</p>
+              <div class="back-img back">
+                <img
+                  src="assets/img/people.Jack-Grealish.jpg"
+                  alt=""
+                  class="people-img"
+                />
+              </div>
+            </div>
+            <div class="col-third people play-video haha-js">
+              <p class="people-name">haaland</p>
+              <div class="back-img back">
+                <img
+                  src="assets/img/people.haaland.jpg"
+                  alt=""
+                  class="people-img"
+                />
+                <video
+                  src="assets/video/haaland-video.mp4"
+                  class="video video-js"
+                  controls
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+            </div>
+            <div class="col-third people play-video haha-js">
+              <p class="people-name">kevin de bruyne</p>
+              <div class="back-img back">
+                <img
+                  src="assets/img/people.kevin.jpg"
+                  alt=""
+                  class="people-img"
+                />
+                <video
+                  src="assets/video/de-bruyne-video.mp4"
+                  class="video video-js"
+                  controls
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="section-content-more">
+            <a href="https://www.mancity.com/players/mens" target="_blank"
+              >More</a
+            >
+          </div>
+        </div>
+
+        <div id="Tour" class="tour-section">
+          <div class="section-content">
+            <h2 class="heading-section">TOUR DATES</h2>
+            <p class="section-sub-heading">Remember to book your tickets!</p>
+            <ul class="tickets-list">
+              <li>September <span class="sout-out">Sold out</span></li>
+              <li>October <span class="sout-out">Sold out</span></li>
+              <li>November <span class="quantity">3</span></li>
+            </ul>
+
+            <div class="row places-list">
+              <div class="col col-third places-items">
+                <div class="back-img-2 back">
+                  <img
+                    src="assets/tour-match/place-1.jpg"
+                    alt=""
+                    class="img-items"
+                  />
+                </div>
+
+                <div class="places-content">
+                  <h3 class="places-heading">MANCHESTER UTIT</h3>
+                  <p class="places-time">Fri 27 Nov 2016</p>
+                  <p class="places-desc">
+                    Trận cầu tâm điểm của Ngoại hạng Anh vào cuối tuần này sẽ là
+                    derby thành Manchester giữa Man City
+                  </p>
+                  <button class="places-buy-btn js-buy-ticket">
+                    Buy Tickets
+                  </button>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="col col-third places-items">
+                <div class="back-img-2 back" onclick="showInfo(this)">
+                  <img
+                    src="assets/tour-match/place-2.jpg"
+                    alt=""
+                    class="img-items"
+                  />
+                </div>
+
+                <div class="places-content">
+                  <h3 class="places-heading">LIVERPOOL</h3>
+                  <p class="places-time">Fri 27 Nov 2016</p>
+                  <p class="places-desc">
+                    Man City sẽ đến Liverpool Liverpool và Man City luôn là cuộc
+                    đối đầu mà cả thế giới mong đợi.
+                  </p>
+                  <button class="places-buy-btn js-buy-ticket">
+                    Buy Tickets
+                  </button>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="col col-third places-items">
+                <div class="back-img-2 back">
+                  <img
+                    src="assets/tour-match/place-3.jpg"
+                    alt=""
+                    class="img-items"
+                  />
+                </div>
+
+                <div class="places-content">
+                  <h3 class="places-heading">TOTTENHAM HOTSPUR</h3>
+                  <p class="places-time">Fri 27 Nov 2016</p>
+                  <p class="places-desc">
+                    Tottenham sẽ cảm thấy nhẹ nhõm khi biết rằng họ không phải
+                    đối phó với De Bruyne và Foden vào đêm nay
+                  </p>
+                  <button class="places-buy-btn js-buy-ticket">
+                    Buy Tickets
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="Contact" class="section-content content-padding-down-64">
+          <h2 class="heading-section">CONTACT</h2>
+          <p class="section-sub-heading">Fan? Drop a note!</p>
+
+          <div class="contact-fan row">
+            <div class="connect col col-half">
+              <p><i class="ti-location-pin"></i> Chicago, US</p>
+              <p><i class="ti-mobile"></i> Phone: +00 151515</p>
+              <p><i class="ti-email"></i> Email: mail@mail.com</p>
+            </div>
+
+            <div class="input col col-half">
+              <form action="">
+                <div class="row">
+                  <div class="col col-half padding-bottom-input">
+                    <input
+                      type="text"
+                      name=""
+                      placeholder="Name"
+                      required
+                      id=""
+                      class="form-control"
+                    />
+                  </div>
+
+                  <div class="col col-half padding-bottom-input">
+                    <input
+                      type="email"
+                      name=""
+                      placeholder="Email"
+                      required
+                      id=""
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+                <div class="row mt-8 padding-bottom-input">
+                  <div class="col col-full">
+                    <input
+                      type="text"
+                      name=""
+                      placeholder="Message"
+                      required
+                      id=""
+                      class="form-control"
+                    />
+                  </div>
+                </div>
+
+                <input
+                  type="submit"
+                  value="SEND"
+                  class="places-buy-btn mt-16 fl-right"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-section">
+          <img src="assets/img/etihad.jpg" alt="" />
+        </div>
+      </div>
+      <!-- thẻ footer -->
+      <div id="footer" class="center">
+        <a href="https://www.facebook.com/phu.tuila.50" class="icon ti-facebook"></a>
+        <a href="https://www.instagram.com/thien_phuuuuu/" class="icon ti-instagram"></a>
+        <a href="" class="icon ti-pinterest"></a>
+        <a href="" class="icon ti-linkedin"></a>
+        <a href="https://www.youtube.com/channel/UCpOA-KXbeaVz77iHa_ZwX7g" class="icon ti-youtube"></a>
+        <a href="" class="icon ti-reddit"></a>
+
+        <p class="flooter-text">Powered by <a href="">w3.css</a></p>
+      </div>
+
+      <div class="on-top">
+        <a href="#slider" class="on-top-icon ti-angle-double-up"></a>
+      </div>
+    </div>
+
+    <div class="modal js-modal modal-back">
+      <div class="modal-container modal-container-js">
+        <div class="modal-close js-modal-close">
+          <i class="ti-close"></i>
+        </div>
+
+        <div class="modal-header">
+          <i class="bag ti-bag"></i>
+          Tickets
+        </div>
+
+        <div class="modal-body">
+          <label for="" class="modal-label">
+            <i class="ti-shopping-cart"></i>
+            Tickets, $15 per person
+          </label>
+          <input type="text" class="modal-input" placeholder="How many?" />
+
+          <label for="" class="modal-label">
+            <i class="ti-user"></i>
+            Send To
+          </label>
+          <input type="text" class="modal-input" placeholder="Enter email..." />
+
+          <button class="modal-button-pay">
+            Pay
+            <i class="ti-check"></i>
+          </button>
+        </div>
+        <footer class="modal-footer">
+          <p class="modal-help">Need <a href="">help?</a></p>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      //khai báo
+      const buyBtns = document.querySelectorAll(".js-buy-ticket");
+      const modal = document.querySelector(".js-modal");
+      const modalClose = document.querySelector(".js-modal-close");
+      const modalContainer = document.querySelector(".modal-container-js");
+      const modall = document.querySelector(".js-search");
+      const search = document.querySelector(".search-js");
+      const searchBorder = document.querySelector(".search-border");
+
+      // start
+
+      // const clickToPlayVideos = document.querySelectorAll(".haha-js");
+      // const addOpen = document.querySelector(".video-js");
+      // const body = document.querySelector(".section-content-people");
+      // const outsize = document.querySelector(".section-content");
+
+      // for (const clickToPlayVideo of clickToPlayVideos) {
+      //   clickToPlayVideo.addEventListener("click", PlayVideo);
+      // }
+      // function PlayVideo() {
+      //   // alert('Xin chao, bam duoc roi day');
+      //   addOpen.classList.add("open");
+      // }
+
+      // function StopVideo() {
+      //   // alert('Xin chao, bam duoc roi day');
+      //   addOpen.classList.remove("open");
+      // }
+      // outsize.addEventListener("click", StopVideo);
+
+      // body.addEventListener("click", stopPropagation);
+
+      // clickToPlayVideo.addEventListener('click', PlayVideo);
+
+      // const
+
+      // nút tìm kiếm
+      function showSearch() {
+        modall.classList.add("open");
+        //  alert("aloalo")
+      }
+      function hideSearch() {
+        modall.classList.remove("open");
+        // alert("aloalo")
+      }
+
+      search.addEventListener("click", showSearch);
+
+      modall.addEventListener("click", hideSearch);
+
+      searchBorder.addEventListener("click", stopPropagation);
+      // hết nút tìm kiếm
+
+      //hiển thị(thêm class open vào modal)
+      function showBuyTickets() {
+        modal.classList.add("open");
+      }
+      //ẩn đi(xóa class open)
+      function hideBuyTickets() {
+        modal.classList.remove("open");
+      }
+
+      //dừng tính nổi bọt của modalCLose
+      function stopPropagation() {
+        event.stopPropagation();
+      }
+      // hiện nút tìm  kiếm
+
+      //lặp qua từng thẻ buyBtns và lắng nghe click
+      for (const buyBtn of buyBtns) {
+        buyBtn.addEventListener("click", showBuyTickets);
+      }
+      modalClose.addEventListener("click", hideBuyTickets);
+
+      //ấn ra ngoài là đóng modal
+      modal.addEventListener("click", hideBuyTickets);
+
+      modalContainer.addEventListener("click", stopPropagation);
+
+      // test
+      function showInfo() {
+        alert("bấm cc à chưa học");
+      }
+    </script>
+
+    <script>
+      var header = document.getElementById("header");
+      var mobileMenu = document.getElementById("mobile-menu");
+      var Height = header.clientHeight;
+
+      mobileMenu.onclick = function () {
+        // alert('NHIN CAI CON CA')
+        var isClose = header.clientHeight === Height;
+        if (isClose) {
+          header.style.height = "auto";
+        } else {
+          header.style.height = null;
+        }
+      };
+
+      // tự động đóng khi chọn menu
+      var mennuItems = document.querySelectorAll('#nav li a[href*="#"]');
+      // console.log(mennuItems);
+      for (var i = 0; i < mennuItems.length; i++) {
+        var menuItem = mennuItems[i];
+
+        menuItem.onclick = function (event) {
+          var isParentMenu =
+            this.nextElementSibling &&
+            this.nextElementSibling.classList.contains("subnav");
+
+          if (isParentMenu) {
+            event.preventDefault();
+          } else {
+            header.style.height = null;
+          }
+
+          // console.log(this)
+        };
+        
+      }
+    </script>
+  </body>
+</html>
